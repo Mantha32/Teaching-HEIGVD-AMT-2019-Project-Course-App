@@ -26,4 +26,15 @@ user=root:password=adminpw:DatabaseName=sakila:ServerName=db:port=3306 pool_saki
   ./glassfish4/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-resource --connectionpoolid
 pool_sakila jdbc/sakila
 
-RUN ./glassfish4/bin/asadmin stop-domain domain1
+#RUN ./glassfish4/bin/asadmin stop-domain domain1
+
+RUN echo "AS_ADMIN_PASSWORD=glassfish" > /tmp/gfpw.txt && \
+  ./glassfish4/bin/asadmin start-domain domainCourse && \
+  ./glassfish4/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-connection-pool --restype
+javax.sql.DataSource --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property
+user=root:password=adminpw:DatabaseName=AMT_COURSE:ServerName=db:port=3306 pool_amtCourse && \
+  ./glassfish4/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-resource --connectionpoolid
+pool_amtCourse jdbc/AMT_COURSE
+
+
+#RUN ./glassfish4/bin/asadmin stop-domain domainCourse

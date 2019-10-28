@@ -52,14 +52,14 @@
     </jdbc-connection-pool>
     <connector-connection-pool max-pool-size="250" resource-adapter-name="jmsra" steady-pool-size="1" name="jms/__defaultConnectionFactory-Connection-Pool" connection-definition-name="javax.jms.ConnectionFactory"></connector-connection-pool>
     <connector-resource pool-name="jms/__defaultConnectionFactory-Connection-Pool" object-type="system-all-req" jndi-name="jms/__defaultConnectionFactory"></connector-resource>
-    <jdbc-connection-pool datasource-classname="com.mysql.jdbc.jdbc2.optional.MysqlDataSource" name="pool_AMT_COURSE" res-type="javax.sql.DataSource">
+    <jdbc-connection-pool datasource-classname="com.mysql.jdbc.jdbc2.optional.MysqlDataSource" name="pool_course" res-type="javax.sql.DataSource">
       <property name="port" value="3306"></property>
       <property name="user" value="root"></property>
       <property name="password" value="adminpw"></property>
       <property name="ServerName" value="db"></property>
       <property name="DatabaseName" value="AMT_COURSE"></property>
     </jdbc-connection-pool>
-    <jdbc-resource pool-name="pool_AMT_COURSE" jndi-name="jdbc/AMT_COURSE"></jdbc-resource>
+    <jdbc-resource pool-name="pool_course" jndi-name="jdbc/AMT_COURSE"></jdbc-resource>
     <managed-executor-service object-type="system-all" jndi-name="concurrent/__defaultManagedExecutorService"></managed-executor-service>
     <managed-scheduled-executor-service object-type="system-all" jndi-name="concurrent/__defaultManagedScheduledExecutorService"></managed-scheduled-executor-service>
     <context-service object-type="system-all" jndi-name="concurrent/__defaultContextService"></context-service>

@@ -15,9 +15,9 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
 USER payara
 RUN echo "AS_ADMIN_PASSWORD=admin" > /tmp/gfpw.txt && \
   /opt/payara/glassfish/bin/asadmin start-domain domain1 && \
-  /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property user=root:password=adminpw:DatabaseName=sakila:ServerName=db:port=3306 pool_sakila && \
-  /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-resource --connectionpoolid pool_sakila jdbc/sakila && /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property user=root:password=adminpw:DatabaseName=AMT_COURSE:ServerName=db:port=3306 pool_AMT_COURSE && \
-  /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-resource --connectionpoolid pool_AMT_COURSE jdbc/AMT_COURSE
+  /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property user=root:password=adminpw:DatabaseName=AMT_COURSE:ServerName=db:port=3306 pool_course && \
+  /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-resource --connectionpoolid pool_course jdbc/AMT_COURSE && /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property user=root:password=adminpw:DatabaseName=AMT_COURSE:ServerName=db:port=3306 pool_course && \
+  /opt/payara/glassfish/bin/asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdbc-resource --connectionpoolid pool_course jdbc/AMT_COURSE
 
 
 
