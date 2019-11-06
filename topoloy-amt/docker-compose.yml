@@ -2,24 +2,19 @@ version: '3'
 services:
   payara:
     build: ../images/payara
+    container_name: payaraserv
     links:
       - mysql:db
     ports:
       - "8080:8080"
       - "4848:4848"
     volumes:
-      - ../Project-HEIGVD-AMT-2019-CourseApp/target:/opt/payara/deployments/      
-  wildfly:
-    build: ../images/wildfly
-    ports:
-      - "9090:8080"
-      - "9990:9990"
-    links:
-      - mysql:db
+      - ../Project-HEIGVD-AMT-2019-CourseApp/target:/opt/payara/deployments/     
   mysql:
     build: ../images/mysql
+    container_name: mysqlcourse
     environment:
-      - MYSQL_DATABASE=AMT_COURSE
+      - MYSQL_DATABASE=AMT_SCHEDULE
       - MYSQL_USER=root
       - MYSQL_PASS=adminpw
       - MYSQL_ROOT_PASSWORD=adminpw      

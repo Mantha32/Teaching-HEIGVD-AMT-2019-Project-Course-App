@@ -1,7 +1,6 @@
-package com.amt.schedule.impl;
+package com.amt.schedule.service;
 
-import com.amt.schedule.entities.Type;
-import com.amt.schedule.entities.Utilisateur;
+import com.amt.schedule.model.Utilisateur;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

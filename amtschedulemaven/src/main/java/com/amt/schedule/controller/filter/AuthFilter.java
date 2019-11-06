@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebFilter(filterName = "authFilter")
+@WebFilter(filterName = "authFilter", urlPatterns = "/*")
 public class AuthFilter implements Filter {
     private  ServletContext context;
 
@@ -23,6 +23,8 @@ public class AuthFilter implements Filter {
         String uri = request.getRequestURI();
         this.context.log(uri);
         HttpSession session = request.getSession(false);
+
+        //Checkout if the user is logged
         boolean login = session != null && session.getAttribute("matricule") != null;
         if (login || uri.equals(request.getContextPath() + "/login")) {
             chain.doFilter(req, resp);

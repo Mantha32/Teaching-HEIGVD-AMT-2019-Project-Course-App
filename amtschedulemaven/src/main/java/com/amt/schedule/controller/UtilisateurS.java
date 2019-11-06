@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.amt.schedule.inter.TypeEJB;
-import com.amt.schedule.inter.UtilisateurEJB;
+import com.amt.schedule.inter.IUtilisateurLocal;
 
 /**
  * Servlet implementation class UtilisateurS
@@ -22,7 +22,7 @@ public class UtilisateurS extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	@EJB
-	private UtilisateurEJB utilisateur;
+	private IUtilisateurLocal utilisateur;
 
 	@EJB
 	private TypeEJB type;
@@ -41,11 +41,6 @@ public class UtilisateurS extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		request.setAttribute("enseignants",
-				utilisateur.lister("Enseignant"));
-		response.setCharacterEncoding("UTF-8");
-		request.getRequestDispatcher("allEnseignant.jsp").include(request, response);
 	}
 
 	/**
@@ -54,29 +49,6 @@ public class UtilisateurS extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		String matricule = request.getParameter("mat");
-		String nom = request.getParameter("nom");
-		String email = request.getParameter("email");
-		String sexeC = request.getParameter("sexe");
-		String grade = request.getParameter("grade");
-		String password = request.getParameter("pass");
-		boolean sexe = true;
 
-		PrintWriter out = response.getWriter();
-
-		if (sexeC.compareToIgnoreCase("feminin") == 0) {
-			sexe = false;
-		}
-
-		String state = null;
-		try {
-			state = utilisateur.creer(matricule, nom, email, sexe,
-					type.chercher(request.getParameter("type")), password, grade);
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		out.print(state);
-		out.flush();
 	}
 }

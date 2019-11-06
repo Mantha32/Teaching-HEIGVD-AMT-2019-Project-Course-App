@@ -5,9 +5,6 @@ package com.amt.schedule.inter;
 
 import javax.ejb.Local;
 
-import com.amt.schedule.entities.Plage;
-import com.amt.schedule.entities.Salle;
-
 import java.sql.SQLException;
 
 /**

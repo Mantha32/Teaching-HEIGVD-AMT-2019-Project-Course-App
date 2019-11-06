@@ -1,7 +1,7 @@
-<%@page import="com.amt.schedule.entities.Cours"%>
-<%@page import="com.amt.schedule.entities.Plage"%>
-<%@page import="com.amt.schedule.entities.Matiere"%>
-<%@page import="com.amt.schedule.entities.Utilisateur"%>
+<%@page import="com.amt.schedule.model.Cours"%>
+<%@page import="com.amt.schedule.model.Plage"%>
+<%@page import="com.amt.schedule.model.Matiere"%>
+<%@page import="com.amt.schedule.model.Utilisateur"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>

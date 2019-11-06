@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.amt.schedule.entities.Utilisateur;
+import com.amt.schedule.model.Utilisateur;
 import com.amt.schedule.inter.TypeEJB;
-import com.amt.schedule.inter.UtilisateurEJB;
+import com.amt.schedule.inter.IUtilisateurLocal;
 import com.amt.schedule.utility.InvalidCredentialsException;
 
 /**
@@ -25,7 +25,7 @@ public class Authentification extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	@EJB
-	UtilisateurEJB utilisateur;
+	IUtilisateurLocal utilisateur;
 
 	@EJB
 	private TypeEJB type;
@@ -45,6 +45,7 @@ public class Authentification extends HttpServlet {
 	protected void doGet(HttpServletRequest request,
 						 HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+
 	}
 
 	/**

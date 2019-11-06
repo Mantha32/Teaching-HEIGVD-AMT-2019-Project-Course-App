@@ -4,7 +4,7 @@
     Author     : doriane kaffo
 --%>
 
-<%@page import="com.amt.schedule.entities.Type"%>
+<%@page import="com.amt.schedule.model.Type"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">

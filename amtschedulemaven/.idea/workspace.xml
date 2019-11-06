@@ -1,27 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="amt-schedule-maven:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="baf36453-923a-4aff-8a40-9cc80edc6455" name="Default Changelist" comment="" />
+    <list default="true" id="7c8bb274-72c5-4693-8350-6efee969967a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/AppExceptionHandlerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classroom/EditClassrom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classroom/listClassroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/courses/addCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/courses/editCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/courses/listCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/homecontent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/internalError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/noFound.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/template.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/schedule/createSchedule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/schedule/schedule.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/editUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/listUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Authentification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Authentification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/CourS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/EvenementS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/NiveauS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/PlageS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Ressources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/SalleS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/TraineauS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/TypeS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/UtilisateurS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/UtilisateurS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/filter/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Appel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Cours.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Dispenser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Evenement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Matiere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Niveau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Plage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Salle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Traineau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/model/Utilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/CoursDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/DateDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/DispenserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/EvenementCreerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/EvenementDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/MatiereDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/NiveauDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/PlageDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/SalleDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TraineauCreerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TraineauDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TraineauSupprimerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TypeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/service/UtilisateurDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/CoursEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/ICoursLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/DateEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/DispenserEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/EvenementEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/MatiereEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/MatiereEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/NiveauEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/NiveauEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/PlageEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/PlageEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/SalleEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/SalleEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TraineauEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TraineauEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TypeEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TypeEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/UtilisateurEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/IUtilisateurLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/allEnseignant.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cours.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cours.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/crenau.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/evenement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/evenement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index_.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index_.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/plage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/plage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/salle.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableEnseignant.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableEvenement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableNiveau.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableSalle.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableSalleP.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableSallePlage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableTraineau.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/CoursDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/CoursDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/DispenserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/DispenserDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/UtilisateurDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/UtilisateurDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/glassfish/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/glassfish/drivers/mysql-connector-java-5.1.47-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/mysql/data/a_sakila-schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/mysql/data/b_sakila-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/mysql/data/course-schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/mysql/data/sakila.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/payara/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../images/payara/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/payara/domain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tomcat/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tomcat/config/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tomcat/manager/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tomee/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tomee/config/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tomee/manager/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/wildfly/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/wildfly/data/mysql-connector-java-5.1.39-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/wildfly/data/standalone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../topoloy-amt/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../topoloy-amt/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1T6yGZlQyRNPxKabuqagpyAlDju" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1T9il3gytCCVPpEhXQtaYglLHm0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BackUp/Teaching-HEIGVD-AMT-2019-Project-CourseApp (copy)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,25 +178,26 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="JBoss Server" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.0.Beta1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/amt-schedule-maven/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration name="fishserv" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.193.1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/opt/java/jdk1.8.0_231">
+      <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="amt-schedule-maven:war exploded">
           <settings />
         </artifact>
       </deployment>
       <server-settings>
-        <option name="SERVER" />
-        <option name="BINDING_SET_NAME" value="" />
-        <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" value="main-server-group" />
-        <option name="USERNAME" value="" />
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
         <option name="CREDENTIAL_ALIAS" />
       </server-settings>
-      <predefined_log_file enabled="true" id="JBoss" />
+      <predefined_log_file enabled="true" id="GlassFish" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50611" />
+        <option name="DEBUG_PORT" value="9009" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -89,8 +232,8 @@
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
+          <option name="USE_DEFAULT" value="false" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../localGlassFishConfig.sh" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
@@ -114,20 +257,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="baf36453-923a-4aff-8a40-9cc80edc6455" name="Default Changelist" comment="" />
-      <created>1572794744390</created>
+      <changelist id="7c8bb274-72c5-4693-8350-6efee969967a" name="Default Changelist" comment="" />
+      <created>1572878859667</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572794744390</updated>
-      <workItem from="1572794745830" duration="614000" />
-      <workItem from="1572795586098" duration="1266000" />
-      <workItem from="1572810673093" duration="651000" />
-      <workItem from="1572811640358" duration="891000" />
-      <workItem from="1572876678285" duration="732000" />
+      <updated>1572878859667</updated>
+      <workItem from="1572878861291" duration="9111000" />
+      <workItem from="1572895114072" duration="5985000" />
+      <workItem from="1573031858436" duration="17947000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
