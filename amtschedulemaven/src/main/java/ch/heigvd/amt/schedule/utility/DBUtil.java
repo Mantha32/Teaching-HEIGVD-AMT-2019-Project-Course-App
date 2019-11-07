@@ -1,4 +1,4 @@
-package com.amt.schedule.utility;
+package ch.heigvd.amt.schedule.utility;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;

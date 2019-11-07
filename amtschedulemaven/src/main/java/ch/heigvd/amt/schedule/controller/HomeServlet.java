@@ -1,4 +1,7 @@
-package com.amt.schedule.controller;
+package ch.heigvd.amt.schedule.controller;
+
+import ch.heigvd.amt.schedule.model.Title;
+import ch.heigvd.amt.schedule.utility.JobHandler;
 
 import javax.mail.MessagingException;
 import javax.servlet.ServletException;
@@ -12,10 +15,11 @@ import java.util.logging.Logger;
 
 @WebServlet(urlPatterns = {"/my", "/home","/dashboard"})
 public class HomeServlet extends HttpServlet {
-    private static final String HOME_VIEW = "home";
+
+    private static final String HOME_VIEW = "/WEB-INF/pages/home.jsp";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("pageTitle", "Home");
+        JobHandler.setPageTitle(request, "home");
 
         this.getServletContext().getRequestDispatcher(HOME_VIEW).forward(request, response);
     }

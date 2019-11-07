@@ -3,14 +3,18 @@
   User: dilifera
   Date: 11/7/19
   Time: 9:48 AM
-  To change this template use File | Settings | File Templates.
+  The admin can see all the available courses
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<%@include file="../includes/header.jsp" %>
+<!-- Main content -->
+
+<h1> table of the all the cours available</h1>
+
+
+
+
+
+
+
+
+<%@include file="../includes/footer.jsp" %>

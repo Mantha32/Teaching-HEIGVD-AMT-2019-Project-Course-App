@@ -4,9 +4,9 @@ import ch.heigvd.amt.schedule.model.Title;
 
 import javax.servlet.http.HttpServletRequest;
 
-public static class Util {
+public class JobHandler {
 
-    public void  setPageTitle(HttpServletRequest request, String title){
+    public static void  setPageTitle(HttpServletRequest request, String title){
         Title pageTitle = Title.builder().name(title).build();
         request.setAttribute("pageTitle", pageTitle);
     }

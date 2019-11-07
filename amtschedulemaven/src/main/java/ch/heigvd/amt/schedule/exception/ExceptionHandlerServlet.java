@@ -1,4 +1,7 @@
 package ch.heigvd.amt.schedule.exception;
 
-public class ExceptionHandlerServlet {
+import javax.servlet.http.HttpServlet;
+
+public class ExceptionHandlerServlet extends HttpServlet {
+
 }

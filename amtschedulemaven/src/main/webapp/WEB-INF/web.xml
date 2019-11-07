@@ -48,7 +48,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>Utilisateurs</servlet-name>
-		<servlet-class>com.amt.schedule.controller.UtilisateurS</servlet-class>
+		<servlet-class>ch.heigvd.amt.schedule.controller.UtilisateurS</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Utilisateurs</servlet-name>
@@ -88,7 +88,7 @@
 	</servlet-mapping>
 	<filter>
 		<filter-name>authFilter</filter-name>
-		<filter-class>com.amt.schedule.controller.filter.AuthFilter</filter-class>
+		<filter-class>ch.heigvd.amt.schedule.controller.filters.AuthFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>authFilter</filter-name>

@@ -10,7 +10,9 @@
 <!-- Main content -->
 
 <!-- courses list example: how to use include header and footer -->
- <h1>Profile user</h1>
+ <h1> table of the profile user</h1>
+
+
 
 
 

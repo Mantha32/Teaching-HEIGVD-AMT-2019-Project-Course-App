@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.amt.schedule.utility;
+package ch.heigvd.amt.schedule.utility;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

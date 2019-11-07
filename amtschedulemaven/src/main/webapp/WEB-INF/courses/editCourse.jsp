@@ -11,5 +11,7 @@
 <!-- courses list example: how to use include header and footer -->
 <h1>Udpate user info</h1>
 
+
+
 <%@include file="../includes/footer.jsp" %>
 

@@ -1,4 +1,6 @@
-package com.amt.schedule.controller;
+package ch.heigvd.amt.schedule.controller;
+
+import ch.heigvd.amt.schedule.utility.JobHandler;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -17,11 +19,12 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        JobHandler.setPageTitle(request, "login");
         this.getServletContext().getRequestDispatcher(ABSOLUTE_PATH_LOGIN_VIEW).forward(request, response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.sendRedirect(LOGIN_VIEW);
+        response.sendRedirect(ABSOLUTE_PATH_LOGIN_VIEW) ;
     }
 }
