@@ -5,6 +5,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 @FunctionalInterface
-public interface IFunctionStatement {
+public interface IFunctionFindStatement {
     public ResultSet execute(Connection conn) throws SQLException;
 }

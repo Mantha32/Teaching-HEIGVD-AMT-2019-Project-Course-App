@@ -8,7 +8,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 
-@WebFilter("/example")
+@WebFilter("/*")
 public class AuthentificationFilter implements Filter {
     private ServletContext context;
 
@@ -23,11 +23,11 @@ public class AuthentificationFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
         String uri = request.getRequestURI();
-        this.context.log("Requested Resource::"+uri);
+        this.context.log("Requested Resource::" + uri);
 
         HttpSession session = request.getSession(false);
-
-        if(session == null && !(uri.endsWith("html") || uri.endsWith("LoginServlet"))){
+        //A user is logged when the session in not null!
+        if(session == null && !(uri.endsWith("html") || uri.endsWith("login"))){
             this.context.log("Unauthorized access request");
             response.sendRedirect("login");
         }else{

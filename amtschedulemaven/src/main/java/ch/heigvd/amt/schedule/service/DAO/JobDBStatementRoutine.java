@@ -1,7 +1,10 @@
-package ch.heigvd.amt.schedule.utility;
+package ch.heigvd.amt.schedule.service.DAO;
 
-import ch.heigvd.amt.schedule.service.DAO.UserManager;
+import ch.heigvd.amt.schedule.utility.DBUtils;
+import ch.heigvd.amt.schedule.utility.IFunctionAddStatement;
+import ch.heigvd.amt.schedule.utility.IFunctionFindStatement;
 
+import javax.ejb.Stateless;
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,7 +13,8 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class JobDBStatementRoutine implements IJobDBStatementRoutine {
+@Stateless
+public class JobDBStatementRoutine implements IJobDBStatementRoutineLocal {
 
     @Override
     public ResultSet findObjectInDB(DataSource dataSource, IFunctionFindStatement statement) {

@@ -51,12 +51,12 @@ echo "AS_ADMIN_PASSWORD=admin" > /tmp/gfpw.txt;
 #${ASADMIN} --user admin --passwordfile=/tmp/gfpw.txt create-domain --portbase ${PORT_BASE} ${DOMAIN_NAME}
 
 
-## Check out the Ip address for de mysql database running in docker 
+## Check out the Ip address for de mysql database running in docker
 DB_IP=$(docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mysqlcourse)
 
 # Start the newly created sampleDomain domain using the asadmin start-domain
 # command.
 
 ${ASADMIN} start-domain ${DOMAIN_NAME} && \
-${ASADMIN} --interactive=false --user admin  create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property user=root:password=adminpw:DatabaseName=AMT_SCHEDULE:ServerName=${DB_IP}:port=3306 pool_course && \
-${ASADMIN} --interactive=false --user admin  create-jdbc-resource --connectionpoolid pool_course jdbc/AMT_SCHEDULE
+${ASADMIN} --interactive=false --user admin  create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property user=root:password=adminpw:DatabaseName=scheduleDatabase:ServerName=${DB_IP}:port=3306 pool_course && \
+${ASADMIN} --interactive=false --user admin  create-jdbc-resource --connectionpoolid pool_course jdbc/scheduleDatabase

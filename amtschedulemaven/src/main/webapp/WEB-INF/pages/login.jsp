@@ -49,10 +49,10 @@
                                 </div>
                                 <form class="user" action="home" method="post">
                                     <div class="form-group">
-                                        <input type="username" class="form-control form-control-user" id="inputUsername" aria-describedby="emailHelp" placeholder="Enter username">
+                                        <input type="username" class="form-control form-control-user" id="inputUsername" name="inputUsername" aria-describedby="emailHelp" placeholder="Enter username">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control form-control-user" id="inputPassword" placeholder="Password">
+                                        <input type="password" class="form-control form-control-user" id="inputPassword" name="inputPassword" placeholder="Password">
                                     </div>
                                     <div class="form-group">
                                         <div class="custom-control custom-checkbox small">
