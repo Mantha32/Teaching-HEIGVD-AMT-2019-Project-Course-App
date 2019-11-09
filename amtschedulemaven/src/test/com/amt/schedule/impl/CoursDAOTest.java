@@ -1,5 +1,6 @@
-package com.amt.schedule.service;
+package com.amt.schedule.impl;
 
+import com.amt.schedule.entities.*;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

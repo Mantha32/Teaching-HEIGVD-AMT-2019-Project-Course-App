@@ -51,10 +51,10 @@
 	<div class="login-box-body">
 		<p class="login-box-msg">Connection</p>
 		<button class="btn-error"></button>
-		<form method="" action="">
+		<form method="" action="#">
 			<div class="form-group has-feedback">
-				<input type="text" class="form-control input-field" placeholder="matricule"
-					   required id="mat"> <span
+				<input type="text" class="form-control input-field" placeholder="username"
+					   required id="username"> <span
 					class="glyphicon glyphicon-envelope form-control-feedback"></span>
 			</div>
 			<div class="form-group has-feedback">
@@ -89,7 +89,7 @@
 <script>
 	(function($) {
 		function populate_types() {
-			$.get('types', function(data) {
+			$.get('roles', function(data) {
 				var val = data.split(',');
 				$('#type').find($('option')).remove();
 				for ( var i = 0; i < val.length; i++) {
@@ -103,15 +103,14 @@
 			$('#con').on('click', function(){
 				$('.err').removeClass('err');
 				$.post('Authentication', {
-					mat: $('#mat').val(),
-					key: $('#pass').val(),
-					type: $('#type').val()
+					username: $('#username').val(),
+					pass: $('#pass').val(),
+					role: $('#type').val()
 				}, function(page){
 					window.location = page;
 				}).fail(function(err){
 					var xmlResp = $.parseXML(err.responseText);
 					var field = $(xmlResp).find("err").find("field");
-					var msg = $(field).find("msg").text();
 					if (field.text() == 'all') {
 						$('.input-field').addClass('err');
 					} else {

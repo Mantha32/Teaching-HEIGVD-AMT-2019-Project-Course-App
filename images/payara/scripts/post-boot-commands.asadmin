@@ -1,0 +1,5 @@
+#!/bin/sh
+
+create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname com.mysql.cj.jdbc.MysqlXADataSource --property 'user=root:password=adminpw:url=jdbc\:mysql\://db\:3306/scheduleDatabase:useSSL=false' pool_course
+
+create-jdbc-resource --connectionpoolid pool_course jdbc/scheduleDatabase

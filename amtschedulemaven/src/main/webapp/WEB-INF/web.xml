@@ -15,22 +15,6 @@
 		<location>/404.html</location>
 	</error-page>
 	<servlet>
-		<servlet-name>Cours</servlet-name>
-		<servlet-class>com.amt.schedule.controller.CourS</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Cours</servlet-name>
-		<url-pattern>/cours</url-pattern>
-	</servlet-mapping>
-	<servlet>
-		<servlet-name>Traineaux</servlet-name>
-		<servlet-class>com.amt.schedule.controller.TraineauS</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Traineaux</servlet-name>
-		<url-pattern>/traineaux</url-pattern>
-	</servlet-mapping>
-	<servlet>
 		<servlet-name>Ressources</servlet-name>
 		<servlet-class>com.amt.schedule.controller.Ressources</servlet-class>
 	</servlet>
@@ -39,74 +23,59 @@
 		<url-pattern>/ressources</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>Salles</servlet-name>
-		<servlet-class>com.amt.schedule.controller.SalleS</servlet-class>
+		<servlet-name>users</servlet-name>
+		<servlet-class>com.amt.schedule.controller.UserServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Salles</servlet-name>
-		<url-pattern>/salles</url-pattern>
+		<servlet-name>users</servlet-name>
+		<url-pattern>/users</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>Utilisateurs</servlet-name>
-		<servlet-class>ch.heigvd.amt.schedule.controller.UtilisateurS</servlet-class>
+		<servlet-name>classroom</servlet-name>
+		<servlet-class>com.amt.schedule.controller.ClassroomServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Utilisateurs</servlet-name>
-		<url-pattern>/utilisateurs</url-pattern>
+		<servlet-name>classroom</servlet-name>
+		<url-pattern>/classroom</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>Evenements</servlet-name>
-		<servlet-class>com.amt.schedule.controller.EvenementS</servlet-class>
+		<servlet-name>courses</servlet-name>
+		<servlet-class>com.amt.schedule.controller.CourseServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Evenements</servlet-name>
-		<url-pattern>/evenements</url-pattern>
+		<servlet-name>courses</servlet-name>
+		<url-pattern>/courses</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>Types</servlet-name>
-		<servlet-class>com.amt.schedule.controller.TypeS</servlet-class>
+		<servlet-name>lectures</servlet-name>
+		<servlet-class>com.amt.schedule.controller.LectureServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Types</servlet-name>
-		<url-pattern>/types</url-pattern>
+		<servlet-name>lectures</servlet-name>
+		<url-pattern>/lectures</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>Niveaux</servlet-name>
-		<servlet-class>com.amt.schedule.controller.NiveauS</servlet-class>
+		<servlet-name>times</servlet-name>
+		<servlet-class>com.amt.schedule.controller.TimeServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Niveaux</servlet-name>
-		<url-pattern>/niveaux</url-pattern>
+		<servlet-name>times</servlet-name>
+		<url-pattern>/times</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>Plages</servlet-name>
-		<servlet-class>com.amt.schedule.controller.PlageS</servlet-class>
+		<servlet-name>roles</servlet-name>
+		<servlet-class>com.amt.schedule.controller.RoleServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Plages</servlet-name>
-		<url-pattern>/plages</url-pattern>
+		<servlet-name>roles</servlet-name>
+		<url-pattern>/roles</url-pattern>
 	</servlet-mapping>
 	<filter>
 		<filter-name>authFilter</filter-name>
-		<filter-class>ch.heigvd.amt.schedule.controller.filters.AuthFilter</filter-class>
+		<filter-class>com.amt.schedule.controller.filter.AuthFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>authFilter</filter-name>
-		<servlet-name>Cours</servlet-name>
-		<servlet-name>Traineaux</servlet-name>
-		<servlet-name>Salles</servlet-name>
-		<servlet-name>Ressources</servlet-name>
-		<servlet-name>Plages</servlet-name>
-		<url-pattern>/plan</url-pattern>
-		<url-pattern>/cours</url-pattern>
-		<url-pattern>/ressources</url-pattern>
-		<url-pattern>/plages</url-pattern>
-		<url-pattern>/index.jsp</url-pattern>
-		<url-pattern>/index_.jsp</url-pattern>
-		<url-pattern>/index.jsp</url-pattern>
-		<url-pattern>/creneau.jsp</url-pattern>
-		<url-pattern>/plage.jsp</url-pattern>
-		<url-pattern>/evenement.jsp</url-pattern>
-		<url-pattern>/salle.jsp</url-pattern>
+		<url-pattern>/admin.jsp</url-pattern>
 	</filter-mapping>
 </web-app>

@@ -14,7 +14,7 @@ services:
     build: ../images/mysql
     container_name: mysqlcourse
     environment:
-      - MYSQL_DATABASE=scheduleDatabase
+      - MYSQL_DATABASE=AMT_SCHEDULE
       - MYSQL_USER=root
       - MYSQL_PASS=adminpw
       - MYSQL_ROOT_PASSWORD=adminpw      
