@@ -1,10 +1,18 @@
 # Teaching-HEIGVD-AMT-2019-Project-One
-## Objectif
+## Présentation
 
-L’objectif principal de ce projet est d’appliquer les modèles et les techniques présentés lors des cours et de créer une application simple à plusieurs niveaux dans Java EE.
+Planing est une appli web de gestion de l'emploi de temps d'une filiere de l'universite mais aussi la gestion des ressources
+telles ques (les salle, les enseignants, les cours) et aussi la gestion des niveaux de cette filiere.
 
 ## Déploiement de l'architecture
 
+* avoir le Xampp appache, intelliji, maven instalés sur votre ordinateur 
+* Cloner le repos
+* Créer et import la base de données sur phpmyadmin
+* lancer Xampp appache en local et aller dans manageServers start MysqlDatabse et Apache Web Server
+* Impot le projet depuis intelliji et configurer Jboss Server
+* il reste plus qu'à le compiler et l'interface de l'application s'ouvrira sur chrome 
+* vous pouvez vous loguer en tant que admin avec pour username: doriane et passeword: 12345
 
 
 ## Implémentation 
