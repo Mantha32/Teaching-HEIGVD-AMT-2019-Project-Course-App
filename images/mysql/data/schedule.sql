@@ -24,10 +24,6 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
-DROP SCHEMA IF EXISTS schedule;
-CREATE SCHEMA schedule;
-USE schedule;
-
 --
 -- Structure de la table `classroom`
 --
