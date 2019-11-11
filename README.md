@@ -16,6 +16,10 @@ telles ques (les salle, les enseignants, les cours).
 
 
 ## Implémentation 
+
+Schema de la base de donnée: ![base de donne](img/bdd.jpg)
+
+
 Routes et les opérations:
 
 /Authentification : Permet à un utilisateur de se login

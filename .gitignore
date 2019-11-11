@@ -1,6 +1,8 @@
 target/
-.idea
-.backup
+
+*.idea
+*.backup
+*backup
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
