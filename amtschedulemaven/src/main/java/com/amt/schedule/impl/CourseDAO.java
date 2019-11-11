@@ -38,7 +38,7 @@ public class CourseDAO implements CourseEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -59,7 +59,7 @@ public class CourseDAO implements CourseEJB {
                 course.setUser(userEJB.chercher(resultSet.getString("userid")));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return course;
     }
@@ -77,7 +77,7 @@ public class CourseDAO implements CourseEJB {
                         userEJB.chercher(resultSet.getInt("userid"))));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return courses;
     }
@@ -99,7 +99,7 @@ public class CourseDAO implements CourseEJB {
                 courses.add(course);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return courses;
     }
@@ -114,7 +114,7 @@ public class CourseDAO implements CourseEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -130,7 +130,7 @@ public class CourseDAO implements CourseEJB {
             preparedStatement.setInt(3, course.getCourseid());
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }

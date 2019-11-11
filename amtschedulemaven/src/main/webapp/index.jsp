@@ -1,7 +1,7 @@
 <%--
     Document   : index
     Created on : 18 juil. 2019, 15:49:09
-    Author     : doriane kaffo
+    Author     : Doriane kaffo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -88,6 +88,9 @@
 </head>
 
 <body id="page-top">
+
+<%@ include file="header.jsp" %>
+
 <div class="row">
     <div class="col-md-12">
 

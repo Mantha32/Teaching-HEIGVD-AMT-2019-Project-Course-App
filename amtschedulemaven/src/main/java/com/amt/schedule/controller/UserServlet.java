@@ -40,6 +40,6 @@ public class UserServlet extends HttpServlet {
         String role = request.getParameter("role");
         List<User> users = userEJB.list(roleEJB.chercher(role));
         request.setAttribute("users", users);
-        request.getRequestDispatcher("/userEJB/listUser.jsp").forward(request, response);
+        request.getRequestDispatcher("/user/listUser.jsp").forward(request, response);
     }
 }

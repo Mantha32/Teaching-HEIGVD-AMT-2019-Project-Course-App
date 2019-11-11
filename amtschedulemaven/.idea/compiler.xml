@@ -9,5 +9,8 @@
         <module name="amt-schedule-maven" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="amt-schedule-maven" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

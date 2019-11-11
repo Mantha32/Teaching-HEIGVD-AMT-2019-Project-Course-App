@@ -48,7 +48,7 @@ public class LectureDAO implements LectureEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -72,7 +72,7 @@ public class LectureDAO implements LectureEJB {
                 lectures.add(lecture);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return lectures;
     }
@@ -97,7 +97,7 @@ public class LectureDAO implements LectureEJB {
                 lectures.add(lecture);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return lectures;
     }
@@ -121,7 +121,7 @@ public class LectureDAO implements LectureEJB {
                 lectures.add(lecture);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return lectures;
     }
@@ -142,7 +142,7 @@ public class LectureDAO implements LectureEJB {
                 lecture.setUser(userEJB.chercher(resultSet.getInt("userid")));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return lecture;
     }
@@ -157,7 +157,7 @@ public class LectureDAO implements LectureEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }

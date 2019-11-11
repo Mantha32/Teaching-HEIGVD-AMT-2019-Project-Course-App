@@ -33,7 +33,7 @@ public class RoleDAO implements RoleEJB {
                 rol.setStatus(role);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return rol;
     }
@@ -50,7 +50,7 @@ public class RoleDAO implements RoleEJB {
                 roles.add(new Role(resultSet.getString("status")));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return roles;
     }
@@ -65,7 +65,7 @@ public class RoleDAO implements RoleEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -80,7 +80,7 @@ public class RoleDAO implements RoleEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }

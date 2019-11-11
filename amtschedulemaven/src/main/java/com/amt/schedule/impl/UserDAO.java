@@ -30,7 +30,7 @@ public class UserDAO implements UserEJB {
 
     @Override
     public String creer(String username, String firstname, Role status) {
-        String req = "INSERT INTO user VALUES (?,?,?)";
+        String req = "INSERT INTO user (USERNAME, FIRSTNAME, STATUS) VALUES (?,?,?)";
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = db.prepareStatement(req);
@@ -40,47 +40,47 @@ public class UserDAO implements UserEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+            return "username deja utilise";
         }
-        return "fail";
     }
 
     @Override
     public User chercher(int userid) {
         String req = "SELECT * FROM user WHERE userid = ?";
-        User user = new User();
+        User user = null;
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = db.prepareStatement(req);
             preparedStatement.setInt(1, userid);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.first()) {
+                user = new User();
                 user.setUserid(userid);
                 user.setUsername(resultSet.getString("username"));
                 user.setNom(resultSet.getString("firstname"));
                 user.setRole(roleEJB.chercher(resultSet.getString("status")));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return user;
     }
     @Override
     public User chercher(String username) {
         String req = "SELECT * FROM user WHERE username = ?";
-        User user = new User();
+        User user = null;
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = db.prepareStatement(req);
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.first()) {
+                user = new User();
                 user.setUsername(resultSet.getString("username"));
                 user.setNom(resultSet.getString("firstname"));
                 user.setRole(roleEJB.chercher(resultSet.getString("status")));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
         }
         return user;
     }
@@ -102,7 +102,7 @@ public class UserDAO implements UserEJB {
                 users.add(user);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return users;
     }
@@ -117,7 +117,7 @@ public class UserDAO implements UserEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -134,7 +134,7 @@ public class UserDAO implements UserEJB {
             preparedStatement.setInt(4, user.getUserid());
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -158,15 +158,13 @@ public class UserDAO implements UserEJB {
                     user.setUserid(result.getInt("userid"));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
         }
-        System.out.println(user != null);
         if (user != null) {
             return user;
         } else {
             user = chercher(key);
             if(user == null) {
-                errField = "mat";
+                errField = "username";
                 msg = "utilisateur introuvable";
             }
             else {

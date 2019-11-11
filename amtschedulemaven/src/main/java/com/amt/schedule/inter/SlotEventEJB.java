@@ -2,7 +2,6 @@ package com.amt.schedule.inter;
 
 import com.amt.schedule.entities.SlotEvent;
 
-
 import javax.ejb.Local;
 import java.util.List;
 

@@ -34,7 +34,7 @@ public class SlotEventDAO implements SlotEventEJB {
                 slotEvents.add(slotEvent);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return slotEvents;
     }
@@ -54,7 +54,7 @@ public class SlotEventDAO implements SlotEventEJB {
                 slotevent.setHeure(resultSet.getString("hour"));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return slotevent;
     }

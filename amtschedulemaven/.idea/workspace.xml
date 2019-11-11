@@ -1,148 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c8bb274-72c5-4693-8350-6efee969967a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/AppExceptionHandlerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classroom/EditClassrom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classroom/listClassroom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/courses/addCourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/courses/editCourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/courses/listCourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/homecontent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/internalError.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/noFound.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/template.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/schedule/createSchedule.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/schedule/schedule.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/editUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/listUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/profile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/register.jsp" afterDir="false" />
+    <list default="true" id="c5af2f17-ff2a-4bf5-acb5-86f1da75b3f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/amt_schedule_maven_ear_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/amt_schedule_maven_ejb_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JBoss_Weld_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaeeSecurity_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amt-schedule-maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amt-schedule-maven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cdi-api-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cdi-api-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cdi-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.security.auth.message-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.security.enterprise-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.security.enterprise.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.security.jacc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-api-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-api-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-impl-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-impl-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-impl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-jsf-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-jsf-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-jsf.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-se-core-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-se-core-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-se-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-se-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-se.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-servlet-core-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-servlet-core-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-servlet-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-servlet-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-servlet-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-spi-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-spi-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/weld-spi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/ClassroomDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/ClassroomDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/CourseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/CourseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/LectureDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/LectureDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/RoleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/RoleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/SlotEventDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/SlotEventDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/TimeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/TimeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/amtschedulemaven_EJB_exploded/com/amt/schedule/impl/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Authentification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Authentification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/CourS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/EvenementS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/NiveauS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/PlageS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Ressources.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/SalleS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/TraineauS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/TypeS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/UtilisateurS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/UtilisateurS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/ClassroomServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/ClassroomServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/CourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/CourseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/LectureServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/LectureServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Ressources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/Ressources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/RoleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/RoleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/TimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/TimeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/controller/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Appel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Cours.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Dispenser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Evenement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Matiere.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Niveau.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Plage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Salle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Traineau.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Type.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/model/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/CoursDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/DateDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/DispenserDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/EvenementCreerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/EvenementDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/MatiereDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/NiveauDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/PlageDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/SalleDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TraineauCreerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TraineauDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TraineauSupprimerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TypeDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/service/UtilisateurDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/CoursEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/ICoursLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/DateEJB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/DispenserEJB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/EvenementEJB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/MatiereEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/MatiereEJB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/NiveauEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/NiveauEJB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/PlageEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/PlageEJB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/SalleEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/SalleEJB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TraineauEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TraineauEJB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TypeEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TypeEJB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/UtilisateurEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/IUtilisateurLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/allEnseignant.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/cours.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cours.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/crenau.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/evenement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/evenement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Classroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Lecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Lecture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/SlotEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/SlotEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/ClassroomDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/ClassroomDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/CourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/LectureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/LectureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/RoleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/RoleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/SlotEventDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/SlotEventDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TimeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/TimeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/impl/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/ClassroomEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/ClassroomEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/CourseEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/CourseEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/LectureEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/LectureEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/RoleEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/RoleEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/SlotEventEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/SlotEventEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TimeEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/TimeEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/UserEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/inter/UserEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/DataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/DataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/InvalidCredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amt/schedule/utility/InvalidCredentialsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bower_components/fullcalendar/dist/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/fullcalendar/dist/fullcalendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bower_components/fullcalendar/dist/gcal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bower_components/fullcalendar/dist/gcal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/classroom/listClassroom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/classroom/listClassroom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/classroom/tableClassroom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/classroom/tableClassroom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/courses/listCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/courses/listCourse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/accordions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/accordions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/alerts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/alerts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/c3/c3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/c3/c3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/calendar/fullcalendar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/calendar/fullcalendar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/calendar/fullcalendar.print.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/calendar/fullcalendar.print.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/chosen/bootstrap-chosen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/chosen/bootstrap-chosen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/code-editor/ambiance.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/code-editor/ambiance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/code-editor/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/code-editor/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/colorpicker/colorpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/colorpicker/colorpicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/cropper/cropper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/cropper/cropper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/data-table/bootstrap-editable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/data-table/bootstrap-editable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/data-table/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/data-table/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/datapicker/colorpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/datapicker/colorpicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/datapicker/datepicker3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/datapicker/datepicker3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/dropzone/dropzone.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/dropzone/dropzone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/duallistbox/bootstrap-duallistbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/duallistbox/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/editor/bootstrap-editable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/editor/bootstrap-editable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/editor/datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/editor/datetimepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/editor/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/editor/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/editor/x-editor-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/editor/x-editor-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/form/all-type-forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/form/all-type-forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/form/themesaller-forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/form/themesaller-forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/ionRangeSlider/ion.rangeSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/ionRangeSlider/ion.rangeSlider.skinFlat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/meanmenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/meanmenu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/metisMenu/metisMenu-vertical.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/metisMenu/metisMenu-vertical.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/metisMenu/metisMenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/metisMenu/metisMenu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/modals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/modals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/morrisjs/morris.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/morrisjs/morris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/notifications/notifications.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/notifications/notifications.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/preloader/preloader-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/preloader/preloader-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/sb-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/sb-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/touchspin/jquery.bootstrap-touchspin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/touchspin/jquery.bootstrap-touchspin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/enseignant.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/enseignant.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index_.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index_.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/plage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/plage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/salle.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableEnseignant.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableEvenement.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableNiveau.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableSalle.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableSalleP.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableSallePlage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tableTraineau.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/CoursDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/CoursDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/DispenserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/DispenserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/UtilisateurDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/UtilisateurDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/glassfish/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/glassfish/drivers/mysql-connector-java-5.1.47-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/mysql/data/a_sakila-schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/mysql/data/b_sakila-data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/mysql/data/course-schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/mysql/data/sakila.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/payara/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../images/payara/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/payara/domain.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/tomcat/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/tomcat/config/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/tomcat/manager/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/tomee/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/tomee/config/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/tomee/manager/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/wildfly/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/wildfly/data/mysql-connector-java-5.1.39-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../images/wildfly/data/standalone.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topoloy-amt/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../topoloy-amt/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/c3-charts/c3-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/c3-charts/c3-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/c3-charts/c3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/c3-charts/c3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/c3-charts/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/c3-charts/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/calendar/fullcalendar-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/calendar/fullcalendar-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/calendar/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/calendar/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/chart/jquery.peity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/chart/jquery.peity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/chart/peity-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/chart/peity-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/charts/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/charts/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/charts/area-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/charts/area-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/charts/bar-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/charts/bar-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/charts/line-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/charts/line-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/charts/rounded-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/charts/rounded-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/chosen/chosen-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/chosen/chosen-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/chosen/chosen.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/chosen/chosen.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/code-editor/code-editor-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/code-editor/code-editor-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/code-editor/code-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/code-editor/code-editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/code-editor/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/code-editor/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/colorpicker/color-picker-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/colorpicker/color-picker-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/colorpicker/jquery.spectrum.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/colorpicker/jquery.spectrum.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/counterup/counterup-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/counterup/counterup-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/counterup/jquery.counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/counterup/jquery.counterup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/counterup/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/counterup/waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/cropper/cropper-actice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/cropper/cropper-actice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/cropper/cropper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/cropper/cropper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-map/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-map/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-map/data-maps-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-map/data-maps-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-map/datamaps.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-map/datamaps.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-map/topojson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-map/topojson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-editable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table-editable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table-export.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table-export.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table-resizable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table-resizable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/colResizable-1.5.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/colResizable-1.5.source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/data-table-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/data-table-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/data-table/tableExport.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/data-table/tableExport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/datapicker/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/datapicker/datepicker-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/datapicker/datepicker-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/dropzone/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/dropzone/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/duallistbox/duallistbox.active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/duallistbox/duallistbox.active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/duallistbox/jquery.bootstrap-duallistbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/duallistbox/jquery.bootstrap-duallistbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/e-payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/e-payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/editable/bootstrap-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/editable/bootstrap-datetimepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/editable/bootstrap-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/editable/bootstrap-editable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/editable/jquery.mockjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/editable/jquery.mockjax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/editable/mock-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/editable/mock-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/editable/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/editable/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/editable/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/editable/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/editable/xediable-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/editable/xediable-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/evenement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/evenement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/google.maps/google.maps-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/google.maps/google.maps-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/icheck/icheck-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/icheck/icheck-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/icheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/icheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/input-mask/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/input-mask/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/ionRangeSlider/ion.rangeSlider.active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/ionRangeSlider/ion.rangeSlider.active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/ionRangeSlider/ion.rangeSlider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.meanmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.meanmenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/knob/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/knob/jquery.knob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/knob/knob-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/knob/knob-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/metisMenu/metisMenu-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/metisMenu/metisMenu-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/metisMenu/metisMenu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/metisMenu/metisMenu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/morris-active-pro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/morris-active-pro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/morris-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/morris-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/morris.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/morris.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/raphael-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/morrisjs/raphael-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/notifications/Lobibox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/notifications/Lobibox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/notifications/notification-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/notifications/notification-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/password-meter/password-meter-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/password-meter/password-meter-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/password-meter/pwstrength-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/password-meter/pwstrength-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/password-meter/zxcvbn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/password-meter/zxcvbn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/pdf/jquery.media.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/pdf/jquery.media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/pdf/pdf-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/pdf/pdf-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/peity/jquery.peity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/peity/jquery.peity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/peity/peity-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/peity/peity-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/rangle-slider/jquery-ui-1.10.4.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/rangle-slider/jquery-ui-1.10.4.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/rangle-slider/jquery-ui-touch-punch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/rangle-slider/jquery-ui-touch-punch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/rangle-slider/rangle-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/rangle-slider/rangle-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/scrollbar/jquery.mCustomScrollbar.concat.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/scrollbar/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/scrollbar/mCustomScrollbar-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/scrollbar/mCustomScrollbar-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/select2/select2-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/select2/select2-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/sparkline/jquery.charts-sparkline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/sparkline/jquery.charts-sparkline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/sparkline/jquery.sparkline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/sparkline/sparkline-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/sparkline/sparkline-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/summernote/summernote-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/summernote/summernote-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/summernote/summernote.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/summernote/summernote.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/touchspin/jquery.bootstrap-touchspin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/touchspin/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/touchspin/touchspin-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/touchspin/touchspin-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/traineau.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/traineau.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/tree-line/jstree.active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/tree-line/jstree.active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/tree-line/jstree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/tree-line/jstree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/wizard/jquery.steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/wizard/jquery.steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/wizard/steps-active.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/wizard/steps-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/node_modules/fullcalendar/dist/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/node_modules/fullcalendar/dist/fullcalendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/node_modules/fullcalendar/dist/gcal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/node_modules/fullcalendar/dist/gcal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user/listUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user/listUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user/tableUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user/tableUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/chart.js/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/chart.js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vendor/chart.js/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/CoursDAOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/DispenserDAOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/amt/schedule/impl/UtilisateurDAOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localGlassFishConfig.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../localGlassFishConfig.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -154,16 +267,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1T9il3gytCCVPpEhXQtaYglLHm0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1TU88YlQkUejaE61KrkjhHOe0Dn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BackUp/Teaching-HEIGVD-AMT-2019-Project-CourseApp (copy)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,8 +287,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="fishserv" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.193.1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/opt/java/jdk1.8.0_231">
-      <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
+    <configuration name="JBoss 18.0.0.Beta1" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.0.Beta1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -188,16 +296,16 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="DOMAIN" value="domain1" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
         <option name="CREDENTIAL_ALIAS" />
       </server-settings>
-      <predefined_log_file enabled="true" id="GlassFish" />
+      <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
+        <option name="DEBUG_PORT" value="64546" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -232,8 +340,8 @@
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
-          <option name="USE_DEFAULT" value="false" />
-          <option name="SCRIPT" value="$PROJECT_DIR$/../localGlassFishConfig.sh" />
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
@@ -257,14 +365,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c8bb274-72c5-4693-8350-6efee969967a" name="Default Changelist" comment="" />
-      <created>1572878859667</created>
+      <changelist id="c5af2f17-ff2a-4bf5-acb5-86f1da75b3f6" name="Default Changelist" comment="" />
+      <created>1573503154672</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572878859667</updated>
-      <workItem from="1572878861291" duration="9111000" />
-      <workItem from="1572895114072" duration="5985000" />
-      <workItem from="1573031858436" duration="17947000" />
+      <updated>1573503154672</updated>
+      <workItem from="1573503155903" duration="593000" />
     </task>
     <servers />
   </component>
@@ -276,9 +382,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

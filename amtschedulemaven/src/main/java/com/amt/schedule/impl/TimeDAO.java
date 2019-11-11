@@ -42,7 +42,7 @@ public class TimeDAO implements TimeEJB {
                 times.add(new Time(lecture, slotEventEJB.chercher(resultSet.getInt("sloteventid"))));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return times;
     }

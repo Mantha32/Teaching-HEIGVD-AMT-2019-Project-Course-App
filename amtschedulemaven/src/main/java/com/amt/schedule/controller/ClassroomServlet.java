@@ -18,7 +18,6 @@ import java.util.List;
 public class ClassroomServlet extends HttpServlet {
     @EJB
     private ClassroomEJB classroomEJB;
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String floor = request.getParameter("floor");
         String name = request.getParameter("name");

@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-ejb" name="amt-schedule-maven:ejb exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/amt_schedule_maven_ejb_exploded</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="amt-schedule-maven/ejb/EJB" />
-      <element id="module-output" name="amt-schedule-maven" />
-    </root>
-  </artifact>
-</component>

@@ -31,7 +31,7 @@ public class ClassroomDAO implements ClassroomEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -51,7 +51,7 @@ public class ClassroomDAO implements ClassroomEJB {
                 classroom.setFloor(resultSet.getString("floor"));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return classroom;
     }
@@ -69,7 +69,7 @@ public class ClassroomDAO implements ClassroomEJB {
                         resultSet.getString("name")));
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return classes;
     }
@@ -84,7 +84,7 @@ public class ClassroomDAO implements ClassroomEJB {
             preparedStatement.execute();
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }
@@ -100,7 +100,7 @@ public class ClassroomDAO implements ClassroomEJB {
             preparedStatement.setInt(3, classroom.getNumero());
             return "succes";
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
         return "fail";
     }

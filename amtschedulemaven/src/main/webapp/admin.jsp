@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 18 juil. 2019, 15:49:09
-    Author     : doriane kaffo
+    Author     : Doriane kaffo
 --%>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -176,7 +176,7 @@
                     <li class="nav-item"><a class="nav-link" href="courses">
                         <i class="fas fa-fw fa-flag"></i> <span>Gerer les Cours</span>
                     </a></li>
-					<li class="nav-item"><a class="nav-link" href="/logout">
+					<li class="nav-item"><a class="nav-link" href="logout">
 						<i class="fas fa-fw fa-flag"></i> <span>Deconexion</span>
 					</a></li>
 				</ul>

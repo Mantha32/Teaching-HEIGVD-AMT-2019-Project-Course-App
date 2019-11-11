@@ -1,7 +1,7 @@
 <%-- 
     Document   : index_
     Created on : 18 juil. 2019, 15:49:09
-    Author     : doriane kaffo
+    Author     : Doriane kaffo
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

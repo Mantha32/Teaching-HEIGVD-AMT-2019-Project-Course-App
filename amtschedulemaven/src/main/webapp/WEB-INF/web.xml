@@ -31,6 +31,14 @@
 		<url-pattern>/users</url-pattern>
 	</servlet-mapping>
 	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>com.amt.schedule.controller.DeconnexionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	<servlet>
 		<servlet-name>classroom</servlet-name>
 		<servlet-class>com.amt.schedule.controller.ClassroomServlet</servlet-class>
 	</servlet>
@@ -76,6 +84,13 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>authFilter</filter-name>
+		<servlet-name>classroom</servlet-name>
+		<servlet-name>courses</servlet-name>
+		<servlet-name>lectures</servlet-name>
+		<servlet-name>times</servlet-name>
+		<servlet-name>Ressources</servlet-name>
 		<url-pattern>/admin.jsp</url-pattern>
+		<url-pattern>/enseignant.jsp</url-pattern>
+		<url-pattern>/index.jsp</url-pattern>
 	</filter-mapping>
 </web-app>
