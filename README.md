@@ -11,11 +11,17 @@ L’objectif principal de ce projet est d’appliquer les modèles et les techni
 Routes et les opérations:
 
 /Authentification : Permet à un utilisateur de se login
+
 /logout : Permet à un utilisateur de fermer sa session donc se déconnecter
+
 /courses: CRUD sur les cours
+
 /lectures : CRUD sur les lectures
+
 /roles : CRUD sur les rôles
+
 /users : CRUD sur les user
+
 /times : Consulter les planning
 
 Concernant l'autehnfication, nous avons utiliser la méthode session.setAttribute pour l'utilisateur connecté. Nous avons utilisé l'algorithme Sha255.
