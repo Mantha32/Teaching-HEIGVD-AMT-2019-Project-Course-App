@@ -2,7 +2,7 @@
 ## Présentation
 
 Planing est une appli web de gestion de l'emploi de temps d'une filiere de l'universite mais aussi la gestion des ressources
-telles ques (les salle, les enseignants, les cours) et aussi la gestion des niveaux de cette filiere.
+telles ques (les salle, les enseignants, les cours).
 
 ## Déploiement de l'architecture
 
