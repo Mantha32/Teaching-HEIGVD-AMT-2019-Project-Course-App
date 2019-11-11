@@ -25,3 +25,5 @@ Routes et les opérations:
 /times : Consulter les planning
 
 Concernant l'autehnfication, nous avons utiliser la méthode session.setAttribute pour l'utilisateur connecté. Nous avons utilisé l'algorithme Sha255.
+
+Nous avons utilisé le filtre AuthFilter pour empêcher l’accès aux ressources sans être connecté au préalable. Bootstrap/sb-admin pour les UI et fullcalendar pour le calendrier.
